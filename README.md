@@ -9,3 +9,5 @@ https://drive.google.com/file/d/1F6wBd8MNkuAKBLcFTcZjLSU9cg6-VRqR/view?usp=shari
 
 # Source
 https://www.kaggle.com/datasets/ivanyakovlevg/physical-and-chemical-properties-of-substances
+
+(Result_of_data-loader.png)
