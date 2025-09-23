@@ -7,7 +7,23 @@ This repository contains dataset, scripts, and tools for working with the physic
 https://drive.google.com/file/d/1F6wBd8MNkuAKBLcFTcZjLSU9cg6-VRqR/view?usp=sharing
 
 
+# How to run code
+1. Clone repository:
+   ```bash
+   git clone https://github.com/Gleb-Bondarenko/data-engineering-phys-chem-properties.git
+   cd data-engineering-phys-chem-properties
+2. Create a virtual environment and install dependencies via Poetry
+   ```bash
+   conda create -n my_env python=3.13 pip
+   conda activate my_env
+   
+   pip install poetry
+   poetry install --no-root
+3. Run code
+   ```bash
+   python3 data_loader.py
 
+# The data_loader.py command produces the following output:
 ![Result of data_loader.py command](Result_of_data-loader.png)
 
 
