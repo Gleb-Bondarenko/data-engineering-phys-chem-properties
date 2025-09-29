@@ -1,6 +1,16 @@
-# Зависимости
-poetry.lock
+# Игнорируем директории с данными и результатами
+/data/
 
-# Данные
-raw_data.csv
-clean_data.parquet
+# Зависимости Python
+poetry.lock
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Системные файлы (для macOS)
+.DS_Store
+
+# Файлы IDE (VSCode, PyCharm)
+.vscode/
+.idea/
