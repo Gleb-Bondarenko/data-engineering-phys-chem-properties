@@ -1,0 +1,20 @@
+# Окружения
+venv/
+.env/
+.venv/
+__pycache__/
+*.pyc
+
+# Данные
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+*.h5
+*.pkl
+
+
+# MacOS служебные файлы
+.DS_Store
+
+poetry.lock
