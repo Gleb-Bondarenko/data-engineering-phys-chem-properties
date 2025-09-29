@@ -1,1 +1,6 @@
+# Зависимости
 poetry.lock
+
+# Данные
+raw_data.csv
+clean_data.parquet
