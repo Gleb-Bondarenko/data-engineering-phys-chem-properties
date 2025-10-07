@@ -26,7 +26,9 @@ https://drive.google.com/file/d/1F6wBd8MNkuAKBLcFTcZjLSU9cg6-VRqR/view?usp=shari
 # The data_loader.py command produces the following output:
 ![Result of data_loader.py command](Result_of_data-loader.png)
 
+In the src/api_example folder, there is a script that retrieves data from a public API and converts it into a Pandas DataFrame.
 
+In the src/api_example folder, there is a script that retrieves data from a public API and converts it into a Pandas DataFrame.
 
 # Source
 https://www.kaggle.com/datasets/ivanyakovlevg/physical-and-chemical-properties-of-substances
