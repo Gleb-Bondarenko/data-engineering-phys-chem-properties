@@ -4,6 +4,3 @@
 
 Скрипт `parser.py` собирает цитаты, авторов и теги, загружает их в `Pandas DataFrame` и выводит первые строки
 
-## Пример вывода
-
-![screenshot](screenshot.png)
