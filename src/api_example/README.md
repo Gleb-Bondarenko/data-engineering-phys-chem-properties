@@ -6,4 +6,5 @@
 
 ## Пример вывода
 
-![screenshot](screenshot.png)
+![screenshot](screenshot_1.png)
+![screenshot](screenshot_2.png)
