@@ -1,20 +1,61 @@
-# Окружения
+# Системные файлы macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Виртуальные окружения
+env/
 venv/
-.env/
 .venv/
+my_env/
+*.conda
+
+# Jupyter Notebook checkpoints и временные файлы
+.ipynb_checkpoints/
+*.ipynb_save
+*/.ipynb_checkpoints/*
+
+# Данные (если они большие или с Kaggle)
+data/raw/
+data/interim/
+data/processed/
+*.csv
+*.xlsx
+*.parquet
+
+# Логи и временные файлы
+logs/
+*.log
+*.tmp
+*.bak
+
+# Кэш
+.cache/
 __pycache__/
 *.pyc
 
-# Данные
-*.csv
-*.tsv
-*.xlsx
-*.parquet
-*.h5
-*.pkl
 
+# OS и IDE файлы
+.idea/
+*.iml
+Thumbs.db
 
-# MacOS служебные файлы
-.DS_Store
-
-poetry.lock
+.env
+creds.db
+scripts/read_creds_local.py
