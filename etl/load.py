@@ -31,10 +31,19 @@ def load_to_db_and_parquet(df: pd.DataFrame, skip_db: bool = False):
 
     engine = create_engine(f"postgresql://{user}:{password}@{host}:{port}/{db}")
 
+    # ID
+    df_100 = df.head(100).reset_index(drop=True)
+    df_100.insert(0, "id", df_100.index + 1)
+
     # Loading into PostgreSQL
     table_name = "bondarenko"
-    df_100 = df.head(100)
-
-    df_100.to_sql(table_name, engine, schema="public", index=False, if_exists="replace")
+    df_100.to_sql(
+        table_name,
+        engine,
+        schema="public",
+        index=False,
+        if_exists="replace"
+    )
+    
     print(f"Loaded {len(df_100)} rows into table '{table_name}' in PostgreSQL")
 
